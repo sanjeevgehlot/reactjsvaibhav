@@ -18,7 +18,7 @@ function Dashboard12(props){
             <div className="left_sidebar">
                <ul className="sidebar_menu no_ul">
                   <li>
-                     <a href="#"
+                     <a href="index"
                         className="active f16 d-flex justify-content-between color_black">
                         <span>Home</span>
                         <span>
