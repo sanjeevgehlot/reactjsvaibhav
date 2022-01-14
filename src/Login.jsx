@@ -20,7 +20,7 @@ function Login(props){
                             </div>
 
                             <div className="btn_divi">
-                                <a href="#" className="btn_theme d-block text-center">Login</a>
+                                <a href="index" className="btn_theme d-block text-center">Login</a>
                             </div>
                         </div>
 
