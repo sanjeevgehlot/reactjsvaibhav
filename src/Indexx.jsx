@@ -17,7 +17,7 @@ function Indexx(props){
                     <div className="left_sidebar">
                         <ul className="sidebar_menu no_ul">
                             <li>
-                                <a href="index"
+                                <a href="#"
                                     className="active f16 d-flex justify-content-between color_black"><span>Home</span>
                                     <span><svg xmlns="http://www.w3.org/2000/svg" width="11.747" height="11.747"
                                             viewBox="0 0 11.747 11.747">
@@ -29,7 +29,7 @@ function Indexx(props){
                                     </span> </a>
                             </li>
                             <li>
-                                <a href="dashboard12" className="f16 d-flex justify-content-between color_black"><span>Driver</span>
+                                <a href="#" className="f16 d-flex justify-content-between color_black"><span>Driver</span>
                                     <span><svg xmlns="http://www.w3.org/2000/svg" width="11.747" height="11.747"
                                             viewBox="0 0 11.747 11.747">
                                             <path className="Path_6881" data-name="Path 6881" d="M0,0V5.8H5.811"
@@ -51,7 +51,7 @@ function Indexx(props){
                                     </span> </a>
                             </li>
                             <li>
-                                <a href="dashboard10" className="f16 d-flex justify-content-between color_black"><span>Orders</span>
+                                <a href="#" className="f16 d-flex justify-content-between color_black"><span>Orders</span>
                                     <span><svg xmlns="http://www.w3.org/2000/svg" width="11.747" height="11.747"
                                             viewBox="0 0 11.747 11.747">
                                             <path className="Path_6881" data-name="Path 6881" d="M0,0V5.8H5.811"
