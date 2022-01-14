@@ -18,8 +18,8 @@ function Dashboard10(props){
             <div className="left_sidebar">
                <ul className="sidebar_menu no_ul">
                   <li>
-                     <a href="#"
-                        className="active f16 d-flex justify-content-between color_black">
+                     <a href="index"
+                        className=" f16 d-flex justify-content-between color_black">
                         <span>Home</span>
                         <span>
                            <svg xmlns="http://www.w3.org/2000/svg" width="11.747" height="11.747"
@@ -33,7 +33,7 @@ function Dashboard10(props){
                      </a>
                   </li>
                   <li>
-                     <a onClick={() => setShow(true)} href="#" className="f16 d-flex justify-content-between color_black">
+                     <a onClick={() => setShow(true)} href="dashboard12" className="f16 d-flex justify-content-between color_black">
                         <span>Driver</span>
                         <span>
                            <svg xmlns="http://www.w3.org/2000/svg" width="11.747" height="11.747"
@@ -61,7 +61,7 @@ function Dashboard10(props){
                      </a>
                   </li>
                   <li>
-                     <a href="#" className="f16 d-flex justify-content-between color_black">
+                     <a href="dashboard10" className="active f16 d-flex justify-content-between color_black">
                         <span>Orders</span>
                         <span>
                            <svg xmlns="http://www.w3.org/2000/svg" width="11.747" height="11.747"
@@ -134,22 +134,22 @@ function Dashboard10(props){
                         <div className="col-lg-12">
                            <ul className="table_menu d-flex no_ul m_b_0">
                               <li>
-                                 <a href="dashboard12" className="active color_black f16 m_r_15">
+                                 <a href="#" className="active color_black f16 m_r_15">
                                  All Orders
                                  </a>
                               </li>
                               <li>
-                                 <a href="dashboard12" className="color_black f16 m_r_15">
+                                 <a href="#" className="color_black f16 m_r_15">
                                  Delivered
                                  </a>
                               </li>
                               <li>
-                                 <a href="dashboard12" className="color_black f16 m_r_15">
+                                 <a href="#" className="color_black f16 m_r_15">
                                  Cancelled
                                  </a>
                               </li>
                               <li>
-                                 <a href="dashboard12" className="color_black f16 m_r_15">
+                                 <a href="#" className="color_black f16 m_r_15">
                                  Pending
                                  </a>
                               </li>
