@@ -2,7 +2,9 @@ import React from "react";
 
 import Login from './Login';
 import Index from './Indexx';
-import Style from './Style';
+import Header from './Header';
+import Dashboard10 from './Dashboard10';
+import Dashboard12 from './Dashboard12';
 
 import './App.css';
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -55,19 +57,29 @@ export default function BasicExample() {
             <React.Fragment>
       
     
-            
+              <Header/>
               <Index/>
             
             </React.Fragment>
           </Route>
 
 
-          <Route path="/style">
+          <Route path="/dashboard10">
             <React.Fragment>
       
     
+              <Header/>
+              <Dashboard10/>
             
-              <Style/>
+            </React.Fragment>
+          </Route>
+
+          <Route path="/dashboard12">
+            <React.Fragment>
+      
+    
+              <Header/>
+              <Dashboard12/>
             
             </React.Fragment>
           </Route>

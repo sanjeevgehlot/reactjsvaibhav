@@ -278,6 +278,8 @@ a:hover{
 .close {
     float: none !important;
     margin: 0px !important;
+        font-size: 3.5rem !important;
+    font-weight: 500 !important;
 }
 .p-20{
     padding: 20px;
@@ -535,8 +537,15 @@ outline:none;}
     margin-top: -30px !important;
 }
 
+.modalStyle2{
+        overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    width: 600px !important
+    margin-top: -30px !important;
+}
+
 .modal {
- width: 300px !important;
+ width: 300px;
  padding-left: 0px !important;
      top: -29px !important;
 
@@ -568,4 +577,8 @@ outline:none;}
 
 .removeMargin {
     margin : unset !important;
+}
+
+form {
+    padding: unset !important;
 }
