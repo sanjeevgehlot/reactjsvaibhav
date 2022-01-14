@@ -527,3 +527,45 @@ outline:none;}
     border: none;
     background: white;
 }
+
+.modalStyle{
+        overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    width: 300px !important
+    margin-top: -30px !important;
+}
+
+.modal {
+ width: 300px !important;
+ padding-left: 0px !important;
+     top: -29px !important;
+
+     height: 103.8% !important;
+    border-bottom-right-radius: 5px !important;
+    }
+
+.menu_modal li {
+    border-bottom: 1px solid #ddd;
+    width: 112%;
+    margin-left: -6%;
+}
+
+.modal-header{
+        padding: 13px !important;
+}
+
+
+.modal-dialog {
+  height: 100%; /* = 90% of the .modal-backdrop block = %90 of the screen */
+}
+.modal-content {
+  height: 100%; /* = 100% of the .modal-dialog block */
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.removeMargin {
+    margin : unset !important;
+}

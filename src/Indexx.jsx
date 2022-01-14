@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, Card } from 'react-bootstrap';
+import Modal from 'react-bootstrap/Modal'
 
 function Indexx(props){
+    const [show, setShow] = useState(false);
         return(
 
 
@@ -12,7 +14,7 @@ function Indexx(props){
                 <div className="row">
                     <div className="col-md-4 col-lg-4 col-xl-4">
                         <div className="d-flex align-items-center">
-                            <div data-toggle="modal" data-target="#sidebar-left"
+                            <div onClick={() => setShow(true)}
                                 className="menu_toggler navbar-btn pull-right">
                                 <svg className="menu_1_" data-name="menu (1)" xmlns="http://www.w3.org/2000/svg" width="31"
                                     height="22" viewBox="0 0 31.2 22.533">
@@ -233,7 +235,7 @@ function Indexx(props){
                             <form>
                                 <div className="d-flex align-items-center filter_form justify-content-end p_r_15">
                                     <div className="m_r_8">
-                                        <div className="form-group m_b_0 src position-relative">
+                                        <div className=" m_b_0 src position-relative removeMargin">
                                             <input type="search" placeholder="search here" />
                                             <svg className="src_icon position-absolute" data-name="Group 10163"
                                                 xmlns="http://www.w3.org/2000/svg" width="20.771" height="20.77"
@@ -248,7 +250,7 @@ function Indexx(props){
                                     </div>
 
                                     <div>
-                                        <div className="form-group m_b_0 flt">
+                                        <div className=" m_b_0 flt">
                                             <button><svg xmlns="http://www.w3.org/2000/svg" width="20.938"
                                                     height="21.402" viewBox="0 0 20.938 21.402">
                                                     <g className="Group_10164" data-name="Group 10164"
@@ -278,6 +280,49 @@ function Indexx(props){
     </section>
 
     
+
+
+   
+
+      <Modal
+        show={show}
+        onHide={() => setShow(false)}
+        dialogClassName="modal-90w"
+        aria-labelledby="example-custom-modal-styling-title"
+      className="modalStyle">
+        <Modal.Header closeButton className="d-flex align-items-center p-20">
+          <Modal.Title id="example-custom-modal-styling-title">
+            <strong>All Modules</strong>
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <ul className="sidebar_menu menu_modal no_ul p-0">
+                        <li>
+                            <a href="#" className="active f16 d-flex color_black"><span>Admin
+                                Panel</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className="f16 d-flex color_black"><span>Delivery
+                                    Management</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className="f16 d-flex color_black"><span>HR Admin</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className="f16 d-flex color_black"><span>Database</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className="f16 d-flex color_black"><span>Driver
+                                    Management</span>
+                            </a>
+                        </li>
+                    </ul>
+        </Modal.Body>
+      </Modal>
     
     
   </div>                                       
