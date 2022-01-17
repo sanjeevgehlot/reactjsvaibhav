@@ -157,7 +157,7 @@ function Dashboard12(props){
                         </div>
                         
                      </nav>
-                     <div className="table-responsive table_content">
+                     <div className="table-responsive table_content table-responsive1">
                         <table className="table table-striped">
                            <thead>
                               <tr>

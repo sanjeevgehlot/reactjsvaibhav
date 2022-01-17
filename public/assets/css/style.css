@@ -87,8 +87,8 @@
     padding-left: 22px;
 }
 .bread_crumb {
-    background: var(--color-orange);
-    padding: 8px 0;
+    background: var(--color-grey);
+    padding: 4px 0;
         padding-left: 0px;
     padding-left: 5px;
 }
@@ -284,6 +284,9 @@ a:hover{
 .p-20{
     padding: 20px;
 }
+.p-40{
+    padding-top: 40px;
+}
 .menu_modal.sidebar_menu > li a {
     -webkit-border-radius: 0px;
     border-radius: 0px;
@@ -469,9 +472,13 @@ tbody {
 @media only screen and (max-width: 767px) {
     .form_top {
     padding-left: 10px;
+    top: 100px !important;
 }
     .table-responsive.table_content {
     margin-top: 20px;
+}
+.table-responsive1 {
+    margin-top: 50px !important;
 }
 .welcome {
     height: 60vh;
@@ -582,3 +589,4 @@ outline:none;}
 form {
     padding: unset !important;
 }
+
